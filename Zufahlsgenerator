@@ -1,0 +1,10 @@
+import random
+
+def zufallszahl_generator():
+    # Generiere eine Zufallszahl im Bereich von 1 bis 100
+    zufallszahl = random.randint(1, 100)
+    return zufallszahl
+
+# Rufe die Funktion auf und zeige die generierte Zufallszahl an
+generierte_zahl = zufallszahl_generator()
+print("Die generierte Zufallszahl ist:", generierte_zahl)
